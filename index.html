@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Paint 2.0</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <button class="undoTr" id="undoButton">Назад</button>
+            <button class="redoTr" id="redoButton">Вперед</button>
+
+            <button class="navigation-button" data-shape="square">
+                <img src="./img/square-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="circle">
+                <img src="./img/circle-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="hexagon">
+                <img src="./img/hexagon-alt-1-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="oval">
+                <img src="./img/oval-one-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="parallelogram">
+                <img src="./img/parallelogram-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="rectangle">
+                <img src="./img/rectangle-wide-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="rhombus">
+                <img src="./img/rhombus-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="trapezoid">
+                <img src="./img/trapezoid-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <button class="navigation-button" data-shape="triangle">
+                <img src="./img/triangle-svgrepo-com.svg" class="shape-icon" alt="">
+            </button>
+            <select class="Selector" id="color-select">
+                <option value="black">Черный</option>
+                <option value="red">Красный</option>
+                <option value="orange">Оранжевый </option>
+                <option value="yellow"> Желтый</option>
+                <option value="green"> Зеленный</option>
+                <option value="blue"> Голубой</option>
+                <option value="indigo"> Синий</option>
+                <option value="violet"> Фиолетовый</option>
+              </select>
+
+        <button id="clear" class="clear" >Очистить</button>
+        </div>
+        <canvas id="canvas" class="canvas"></canvas>
+
+    </div>
+    
+
+
+</body>
+<script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navigation-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 11px;
+    background-color:#9499ef;
+    margin-left: 10px;
+    padding: 22px;
+    border-radius: 3px;
+    
+  }
+  
+.navigation-button:hover{
+  
+  background-color:#ef9494;
+  transition: .3s;
+
+}
+  .shape-icon {
+    width: 44px;
+    height: 44px;
+   
+  }
+
+.canvas{
+   
+    margin-top: 10px;
+    background-color: #605c5c;
+    display: block;
+}
+  .Selector{
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  .undoTr{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 11px;
+    margin-left: 10px;
+    padding: 22px;
+    border-radius: 3px;
+    background-color:#ff7b15;
+    font-size: 20px;
+  }
+
+  .redoTr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 11px;
+    margin-left: 10px;
+    padding: 22px;
+    border-radius: 3px;
+    background-color:#15ff67;
+    font-size: 20px;
+
+  }
+
+  .clear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 11px;
+    margin-left: 10px;
+    padding: 22px;
+    border-radius: 3px;
+    background-color:#ff1515;
+    font-size: 20px;
+  }
